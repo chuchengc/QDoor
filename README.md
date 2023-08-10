@@ -6,11 +6,11 @@ QDoor: Exploiting Approximate Synthesis for Backdoor Attacks in Quantum Neural N
 
 ## Usage
 ### STEP 1
-Use the file *original.py* to train an original clean QNN.
+Use the file ***original.py*** to train an original clean QNN.
 
 ### STEP 2
-Use the file *compile.py* to compile the original clean QNN. You should set the *gate set, synthesis_epsilon, optimization_level*.
+Use the file ***compile.py*** to compile the original clean QNN. You should set the **gate set, synthesis_epsilon, optimization_level**.
 
 ### STEP 3
-Use the file *backdoor.py* to train the compiled circuit. You should rebuild the circuit in the file *backdoor.py* and the weights are initialized as compiled result.
+Use the file ***backdoor.py*** to train the compiled circuit. You should rebuild the circuit in the file ***backdoor.py*** and the weights are initialized as compiled result.
 
